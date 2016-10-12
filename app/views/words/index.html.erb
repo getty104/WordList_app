@@ -1,0 +1,18 @@
+<h1>Word List</h1>
+ 
+<table>
+  <tr>
+    <th>Word</th>
+    <th>Meanig</th>
+    <th>Tag</th>
+  </tr>
+ 
+  <% @words.each do |word| %>
+    <tr>
+      <td><%= word.title %></td>
+      <td><%= word.text %></td>
+      <td><%= word.number %></td>
+    </tr>
+  <% end %>
+</table>
+<p></p>
