@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'words/update'
 
   get 'words/destroy'
-
+  routes 'words#index'
 	resources :words
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
